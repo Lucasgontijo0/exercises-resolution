@@ -1,4 +1,4 @@
-# Exercises of Online Judges
+# Exercises of Uri Online Judgde
 
 Uri Online Judgde - Problems and Contests</br>
 www.urionlinejudge.com.br
