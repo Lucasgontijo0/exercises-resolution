@@ -2,21 +2,14 @@
 
 cond = True
 
-alcool = 0
-gasolina = 0
-diesel = 0
 while cond:
     num = int(input())
-    if num == 1:
-        alcool += 1
-    elif num == 2:
-        gasolina += 1
-    elif num == 3:
-        diesel += 1
-    elif num == 4:
+    output = ''
+    if num == 0:
         cond = False
+    for x in range(1, num+1):
+        output += '%d ' % x
+    output = output[:-1]
 
-print('MUITO OBRIGADO')
-print('Alcool: %d' % alcool)
-print('Gasolina: %d' % gasolina)
-print('Diesel: %d' % diesel)
+    if output != '':
+        print(output)
